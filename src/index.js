@@ -4,6 +4,7 @@ var icon48 = '<g fill="none" fill-rule="evenodd>' +
 '</g>';
 
 miro.onReady(() => {
+    console.log('onReady');
     miro.initialize({
         extensionPoints: {
             toolbar: {
@@ -11,9 +12,11 @@ miro.onReady(() => {
                 toolbarSvgIcon: icon24,
                 librarySvgIcon: icon48,
                 onClick: function() {
-                    miro.board.openLibrary('Storyboarding Template', 'library.html');
+                    alert('clicked it!!');
+                    //miro.board.openLibrary('Storyboarding Template', 'library.html');
                 }
             }
         }
-    })
+    });
+    console.log('ready');
 });
