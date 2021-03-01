@@ -11,7 +11,7 @@ miro.onReady(() => {
                 toolbarSvgIcon: icon24,
                 librarySvgIcon: icon48,
                 onClick: function() {
-                    miro.board.openLibrary('Storyboarding Template', '/src/library.html');
+                    miro.board.openLibrary('Storyboarding Template', '/library.html');
                 }
             }
         }
