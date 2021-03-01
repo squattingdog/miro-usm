@@ -13,7 +13,7 @@ miro.onReady(() => {
                 librarySvgIcon: icon48,
                 onClick: function() {
                     alert('clicked it!!');
-                    //miro.board.openLibrary('Storyboarding Template', 'library.html');
+                    //miro.board.openLibrary('Storyboarding Template', '/src/library.html');
                 }
             }
         }
